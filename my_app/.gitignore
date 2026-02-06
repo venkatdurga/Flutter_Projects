@@ -1,0 +1,111 @@
+# ==============================
+
+# OS / Misc
+
+# ==============================
+
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# ==============================
+
+# IDE
+
+# ==============================
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Keep VS Code settings if you want to share them
+
+#.vscode/
+
+# ==============================
+
+# Flutter / Dart
+
+# ==============================
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+
+# Generated plugin files
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# API docs
+
+**/doc/api/
+
+# ==============================
+
+# Android
+
+# ==============================
+
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Build outputs
+
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ==============================
+
+# iOS
+
+# ==============================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/ephemeral/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# ==============================
+
+# Web
+
+# ==============================
+
+web/flutter_service_worker.js
+web/.dart_tool/
+
+# ==============================
+
+# Desktop (if enabled)
+
+# ==============================
+
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ==============================
+
+# Symbolication / Obfuscation
+
+# ==============================
+
+app.*.symbols
+app.*.map.json
