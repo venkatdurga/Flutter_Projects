@@ -1,16 +1,37 @@
-# my_app
+# My App
 
-A new Flutter project.
+Basic Flutter application with camera integration and HTTP API functionality.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Camera functionality
+- HTTP API integration
+- Cross-platform support
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `camera: ^0.10.0+3`
+- `http: ^0.13.3`
+- `flutter_plugin_android_lifecycle: ^2.0.6`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+```bash
+flutter pub get
+```
+
+## Run
+
+```bash
+flutter run
+```
+
+## Build
+
+```bash
+# Android
+flutter build apk --release
+
+# iOS
+flutter build ios --release
+```
