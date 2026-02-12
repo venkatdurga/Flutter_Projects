@@ -27,6 +27,11 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 build/
+/ios/
+/linux/
+/windows/
+/macos/
+/web/
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -68,11 +73,7 @@ build/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
-/ios/
-/linux/
-/windows/
-/macos/
-/web/
+
 # Web related
 lib/generated_plugin_registrant.dart
 
